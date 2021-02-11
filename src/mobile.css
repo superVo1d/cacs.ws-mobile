@@ -1,0 +1,83 @@
+@media (max-width: 576px) { 
+  :root {
+    --header-font-size: 20px;
+    --main-font-size: 15px;
+    --paragraph-font-size: 15px;
+    --label-font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) { 
+  .search {
+    line-height: 26px;
+    height: 26px;
+    padding: 0 9px;
+  }
+
+  .search > .search-icon {
+    top: 3px;
+    height: var(--main-font-size);
+    width: var(--main-font-size);
+  }
+
+  .search > input {
+    width: calc(100% - 52px) !important;
+  }
+
+  .nightmode-btn {
+    top: 0px;
+    height: 26px;
+    width: 26px;
+    text-align: center;
+  }
+
+  .delete-button {
+    margin-right: 4px;
+    top: 0;
+  }
+
+  .delete-button>.delete-icon {
+    position: relative;
+    top: 2px;
+    height: var(--main-font-size);
+    width: var(--main-font-size);
+  }
+
+  .nightmode-btn > .nightmode-icon {
+    line-height: 26px;
+    font-size: var(--main-font-size);
+    height: var(--main-font-size);
+    width: var(--main-font-size);
+    margin: 0 auto;
+    margin-right: 7px;
+    text-align: center;
+  }
+
+  .nightmode-icon > span {
+    font-size: 13px;
+    top: -6px;
+    max-height: 15px;
+    overflow: hidden;
+    line-height: 26px; 
+    text-align: center; 
+  }
+
+  .option {
+    height: 26px;
+    line-height: 26px;
+    padding-left: calc(19px + var(--main-font-size));
+  }
+
+  .search.active {
+    border-radius: 13px 13px 0 0;
+  }
+
+  .searchbar.active {
+    border-radius: 13px;
+  }
+  
+  .row>.date {
+    min-height: 80px !important;
+  }
+
+}
